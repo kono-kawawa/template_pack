@@ -1,0 +1,61 @@
+html,body {
+  height: 100%;
+}
+input[type="submit"], button[type="submit"] {
+  background: #24d5a1;
+}
+.website-checker-form input {
+  margin-right: 2%;
+  width: 25%;
+}
+.website-checker-form input[type=submit] {
+  margin-right: 0;
+  width: 15%;
+}
+body {
+    line-height: 1.7;
+}
+.single-service-box:hover {
+  border-color: #24d5a1;
+}
+.single-service-box:hover a.service-readmore-btn, .single-service-content:hover h3, .single-service-box:hover .service-icon {
+  color: #24d5a1;
+}
+.single-service-box {
+  margin-bottom: 0;
+}
+.case-study-wrapper:hover {
+  background: none;
+  position: relative;
+  z-index: 1;
+}
+.case-study-wrapper:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #24d5a1;
+  z-index: -1;
+  opacity: .8;
+}
+.owl-dots div.active {
+  background-color: #24d5a1;
+}
+.single-blog-box {
+  display: block;
+  color: #999;
+  font-weight: 300;
+  box-shadow: 0 0 10px #f5f5f5;
+  padding: 30px;
+  transition: .3s;
+}
+.single-blog-box h3 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.single-blog-box {
+  opacity: .8;
+  color: #999;
+}

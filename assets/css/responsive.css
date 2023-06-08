@@ -1,0 +1,71 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    .boxed-btn-header {
+        font-size: 13px;
+        padding: 13px 12px;
+    }
+    .single-service-box {
+        padding: 15px;
+    }
+    .hero-area h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .single-service-area-2 {
+        height: 220px;
+    }
+    .single-slide-item h1 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+    .single-case-study {
+        height: 280px;
+    }
+    .pdt-70 {
+        padding: 20px 0;
+    }
+    .blog-wrapper {
+        height: 220px;
+        width: 291px;
+    }
+    .single-blog-box h3 {
+        font-size: 16px;
+    }
+    .slide-wrapper h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .slide-wrapper p {
+        margin-bottom: 40px;
+    }
+    .service-section {
+        padding-top: 30px;
+    }
+    .section-padding::before {
+        top: -45px;
+        width: 47%;
+    }
+    .single-logo-item {
+        height: 50px;
+        width: 110px;
+    }
+    .single-case-study {
+        height: 230px;
+    }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}

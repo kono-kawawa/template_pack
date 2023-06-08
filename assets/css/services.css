@@ -1,0 +1,42 @@
+.mainmenu li a:hover {
+    color: #24d5a1;
+}
+.boxed-btn, input[type="submit"], button[type="submit"] {
+    background-color: #24d5a1;
+    margin-bottom: -30px;
+}
+.single-service-box:hover {
+    border: 1px solid #24d5a1;
+}
+.single-service-box:hover a.service-readmore-btn,.single-service-content:hover h3,.single-service-box:hover .service-icon {
+  color: #24d5a1;
+}
+.case-study-wrapper:hover {
+  background: none;
+  position: relative;
+  z-index: 1;
+}
+.case-study-wrapper:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #24d5a1;
+  z-index: -1;
+  opacity: .8;
+}
+.single-pricing-box:hover {
+  border-color: #24d5a1;
+}
+.single-pricing-box:hover .price-heading {
+  border-color: #24d5a1;
+}
+.price-heading p.price-count {
+  color: #24d5a1;
+}
+.padding-top-80 h3 {
+  font-size: 26px;
+  line-height: 30px;
+}
